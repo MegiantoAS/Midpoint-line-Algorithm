@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-plt.title("Menggambar Garis dengan Menggunakan Algoritma Midpoin")
+plt.title("Menggambar Garis dengan Menggunakan Algoritma Midpoint")
 plt.xlabel("Sumbu X")
 plt.ylabel("Sumbu Y")
 
