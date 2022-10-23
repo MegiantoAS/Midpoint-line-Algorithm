@@ -20,11 +20,9 @@ def line(x1, y1, x2, y2):
 
     while(x < x2):
         x = x + 1
-        #East is choosen
         if (d < 0):
             d = d + dy
 
-        #North east is chosen
         else: 
             d = d + (dy - dx)
             y = y + 1
@@ -36,9 +34,9 @@ def line(x1, y1, x2, y2):
     plt.show()
     
 if __name__ == "__main__":
-    x1 = int(input("Enter the starting point of x: "))
-    y1 = int(input("Enter the starting point of y: "))                
-    x2 = int(input("Enter the end point of x: "))              
-    y2 = int(input("Enter the end point of y: "))    
+    x1 = int(input("Masukan Nilai x1: "))
+    y1 = int(input("Masukan Nilai y1: "))                
+    x2 = int(input("Masukan Nilai x2: "))              
+    y2 = int(input("Masukan Nilai y2: "))    
 
-    line(x1, y1, x2, y2)(x1, y1, x2, y2)
+    line(x1, y1, x2, y2)
